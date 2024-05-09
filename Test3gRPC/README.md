@@ -1,29 +1,11 @@
-# gRPC Hello World
+3. พาย ไฟ ได - Pie Fire Dire
+   
+  สำหรับ `gRPC` เป็นเรื่องใหม่สำหรับผม ผมพึ่งเคยที่จะรู้จักตอนที่รับโจทย์นี้มาครับ รูปแบบหรือการใช้งานบางอย่างอาจจะผิดพาด ขออภัยด้วยครับ
 
-Follow these setup to run the [quick start][] example:
+ขั้นตอนการเริ่ม
 
- 1. Get the code:
+`cd greeter_server` และทำการ `go run main.go` เพื่อเริ่มต้น server
 
-    ```console
-    $ go get google.golang.org/grpc/examples/helloworld/greeter_client
-    $ go get google.golang.org/grpc/examples/helloworld/greeter_server
-    ```
+`cd greeter_client` และทำการ `go run main.go` เพื่อเริ่มต้น client
 
- 2. Run the server:
-
-    ```console
-    $ $(go env GOPATH)/bin/greeter_server &
-    ```
-
- 3. Run the client:
-
-    ```console
-    $ $(go env GOPATH)/bin/greeter_client
-    Greeting: Hello world
-    ```
-
-For more details (including instructions for making a small change to the
-example code) or if you're having trouble running this example, see [Quick
-Start][].
-
-[quick start]: https://grpc.io/docs/languages/go/quickstart
+ผลลัพธ์จะแสดงออกยัง terminal ของ client
